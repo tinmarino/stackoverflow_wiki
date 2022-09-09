@@ -1,8 +1,8 @@
 ---
 title: Vim <- StackEchange top 100
 category: vim
-wiki_css: ../Css/code_prism_dark.css, ../Css/color_dark_solarized.css, ../Css/layout_toc.css
-header-includes: <script type="text/javascript" src="../Css/js_masonry_desandro.js"></script>
+wiki_css: https://raw.githubusercontent.com/tinmarino/wiki_html/master/Css/code_prism_dark.css, https://raw.githubusercontent.com/tinmarino/wiki_html/master/Css/color_dark_solarized.css, https://raw.githubusercontent.com/tinmarino/wiki_html/master/Css/layout_toc.css
+header-includes: <script type="text/javascript" src="https://raw.githubusercontent.com/tinmarino/wiki_html/master/Css/js_masonry_desandro.js"></script>
 wiki_pandoc: --toc
 ---
 
@@ -7867,4 +7867,4 @@ If this happens repeatedly, you should do in order:
 
 </section>
 
-<script src="../Css/js_prism_vim.js"></script>
+<script src="https://raw.githubusercontent.com/tinmarino/wiki_html/master/Css/js_prism_vim.js"></script>

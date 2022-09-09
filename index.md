@@ -1,12 +1,12 @@
 ---
 comment: https://stackexchange.com/sites
-wiki_css: ../Css/color_dark_solarized.css, ../Css/layout_toc.css
-header-includes: <script type="text/javascript" src="../Css/js_masonry_desandro.js"></script>
+wiki_css: https://raw.githubusercontent.com/tinmarino/wiki_html/master/Css/color_dark_solarized.css, https://raw.githubusercontent.com/tinmarino/wiki_html/master/Css/layout_toc.css
+header-includes: <script type="text/javascript" src="https://raw.githubusercontent.com/tinmarino/wiki_html/masthttps://raw.githubusercontent.com/tinmarino/wiki_html/master/Css/js_masonry_desandro.js"></script>
 ---
 
 <br/> <br/> <br/> <br/> <br/>
 
-## <img src='../res/img/stackoverflow_white_logo.svg' style='max-width:45%; margin-top:-200px'>
+## <img src='res/stackoverflow_white_logo.svg' style='max-width:45%; margin-top:-200px'>
 
 ### Interpreted                        
 * [Bash](Bash_top_100)               

@@ -35,7 +35,7 @@ munix(){
   meta=$(perl -0777 -ne '$_ =~ /^ *---(.+?)---/s ; $res .= $1; END { print $res; }' "$INPUT");
 
   # Read `wiki_css:` in metadata
-  CSSFILE=$(realpath --relative-to="$OUTDIR" "$HOME/wiki/wiki_html/Css/include.css")
+  CSSFILE=$(realpath --relative-to="$OUTDIR" "$HOME/wiki/wiki_hthttps://raw.githubusercontent.com/tinmarino/wiki_html/master/Css/include.css")
   export CSS_EMBED=$(echo -e "$meta" | perl -0777 -ne 'while ($_ =~ /^wiki_css:(.+)$/mg) {$res .= " -c " . ($1 =~ s/,/ -c /gr)}; print substr $res, 4')
   [ "$CSS_EMBED" ] && export CSSFILE="$CSS_EMBED"
 
